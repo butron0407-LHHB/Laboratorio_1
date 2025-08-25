@@ -1,5 +1,7 @@
 export function fizzbuzz(){
+  
   let numero;
+  
   for (numero  = 1; numero  <= 100; numero ++) {
     if (numero % 3 == 0 && numero % 5 == 0) {
       console.log("FizzBuzz");
@@ -15,4 +17,5 @@ export function fizzbuzz(){
     }
   }
 }
+
 fizzbuzz();
